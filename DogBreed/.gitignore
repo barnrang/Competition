@@ -1,0 +1,4 @@
+train/
+test/
+X_test.npy
+X_train.npy
