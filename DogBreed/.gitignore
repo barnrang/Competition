@@ -1,4 +1,6 @@
 train/
 test/
+val/
+model/
 X_test.npy
 X_train.npy
