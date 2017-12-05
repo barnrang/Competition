@@ -18,4 +18,4 @@ for name in all_type:
     dir = os.path.join('train',name)
     file_list = os.listdir(dir)
     for j in range(10):
-        os.rename(os.path.join(dir,file_list[j]),'val/'+name+'/'+file_list[j])
+        os.rename(os.path.join(dir,file_list[j]),'val/'+name+'/'+file_list[j]+'.jpg')
